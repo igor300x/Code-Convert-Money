@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    width: 375px;
+    background-color: #F4F4F4;
+    margin: 2% auto;
+}
+
+header{
+    background-color: #00BFFF;
+    height: 66px;
+}
+
+h1{
+    font-size: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 25px;
+}
+
+main{padding: 24px;}
+
+label{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    color: #777777;    
+    font-weight:normal ;
+}
+
+select{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    outline: none;
+    font-size: 18PX;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.15);
+    font-weight: 700;
+}
+
+button{
+    background: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    cursor: pointer;
+    color: #F4F4F4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 100%;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    outline: none;
+}
+
+button:hover
+{ opacity: 0.9;
+  border: solid #0e4a83 ;  
+}
+
+button:active{opacity: 0.7;
+    
+}
+
+.currency-container{
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    padding: 10px;
+}
+.currency-name{
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value{
+    color: #1B83E2;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.arrow-img{
+    margin: 15px auto 5px auto;
+}
+
